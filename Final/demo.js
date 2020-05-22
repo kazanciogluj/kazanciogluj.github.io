@@ -26,8 +26,8 @@ $(document).ready(function() {
       console.log(data.results[0].name.first);
       //$("#person").append( + data.results[0].name.first + ' ' + data.results[0].name.last );
       $.each(data.results, function(key, value){
-        $('#person').append('<h1>' + value.name.first + ' ' + value.name.last + '<br>' +
-        value.location.state + '</h1> <img src="'+ value.picture.large +'" class="img-fluid rounded-circle">')
+        $('#person').append('<div class = "col-md-4"><h1>' + value.name.first + ' ' + value.name.last + '<br>' +
+        value.nat.toLowerCase() + '<span class="flag-icon flag-icon-'+value.nat.toLowerCase()+'"></span></h1> <img src="'+ value.picture.large +'" class="img-fluid rounded-circle"><div><i class="fab fa-twitter"></i></div></div>')
 
       })
     }
