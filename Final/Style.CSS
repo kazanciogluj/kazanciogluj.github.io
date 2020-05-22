@@ -20,4 +20,12 @@ font-family: 'Source Sans Pro', sans-serif;
 
 
 }
+h2.person-title {
+    min-height: 76px;
+}
+footer {background-color: black;
+        color: white;}
+
+#hometop {
+  background: url("http://res.cloudinary.com/joseph0725/image/upload/c_scale,q_48,w_2850/v1590015026/Mirella/photo-1570696557714-01186e96d8c9_b0ahkl.jpg")
 }
